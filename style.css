@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: centre;
+}
+.photo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px solid #000000;
+  margin-left: 20px;
+}
+table,
+th,
+td {
+  border: 2px solid black;
+  background-color: white;
+  text-align: center;
+}
+p {
+  text-align: justify;
+}
+#line1 {
+  border: 2px solid black;
+  height: 895px;
+  width: 600px;
+  padding: 5px;
+}
+
+#line2 {
+  border: 2px solid black;
+  height: 870px;
+  width: auto;
+  padding: 10px;
+  background-color: black;
+}
+#line3 {
+  border: 2px solid black;
+  height: 850px;
+  width: 35%;
+  float: left;
+  border-radius: 20px;
+  background-color: yellow;
+  padding: 5px;
+}
+#line4 {
+  border: 2px solid black;
+  height: 850px;
+  width: 60%;
+  float: right;
+  border-radius: 20px;
+  background-color: white;
+  padding: 5px;
+}
